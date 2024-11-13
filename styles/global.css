@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: var(--color-gray-200);
+}
+
 :root {
   --color-red: #E3646E;
   --color-purple: #BB72E9;
