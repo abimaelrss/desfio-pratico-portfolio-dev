@@ -4,26 +4,22 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: var(--color-gray-200);
-}
-
 :root {
-  --color-red: #E3646E;
-  --color-purple: #BB72E9;
-  --color-blue: #3996DB;
-  --color-green: #82BC4F;
-  --color-yellow: #EABD5F;
-  --color-gray-100: #0D0E11;
-  --color-gray-200: #16181D;
-  --color-gray-300: #292C34;
-  --color-gray-400: #878EA1;
-  --color-gray-500: #C0C4CE;
-  --color-gray-600: #E2E4E9;
+  --principal-red: #E3646E;
+  --principal-purple: #BB72E9;
+  --principal-blue: #3996DB;
+  --principal-green: #82BC4F;
+  --principal-yellow: #EABD5F;
+  --base-gray-100: #0D0E11;
+  --base-gray-200: #16181D;
+  --base-gray-300: #292C34;
+  --base-gray-400: #878EA1;
+  --base-gray-500: #C0C4CE;
+  --base-gray-600: #E2E4E9;
 
-  --font-family: "Maven Pro";
-  --font-family-subtitle: "Inconsolata";
-  --font-family-title: "Asap";
+  --font-family: "Maven Pro", sans-serif;
+  --font-family-subtitle: "Inconsolata", monospace;
+  --font-family-title: "Asap", sans-serif;
 
   --text-md: 16px/140% var(--font-family);
   --text-sm: 14px/140% var(--font-family);
@@ -33,4 +29,15 @@ body {
   --text-title-sm: 800 16px/120% var(--font-family-title);
 
   --text-subtitle: 20px/120% var(--font-family-subtitle);
+}
+
+body {
+  background-color: var(--base-gray-200);
+  color: var(--base-gray-600);
+
+  font-family: "Maven Pro", sans-serif;
+}
+
+#container {
+  max-width: 1366px;
 }
