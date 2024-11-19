@@ -28,6 +28,10 @@
   background: var(--base-gray-300, #292c34);
 }
 
+.project-card:hover {
+  outline: 1.5px solid var(--base-gray-400);
+}
+
 .project-card img {
   width: 306px;
   height: 156px;

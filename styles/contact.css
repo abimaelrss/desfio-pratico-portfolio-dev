@@ -34,6 +34,10 @@ footer .header .subtitle {
   position: relative;
 }
 
+#contact-content button:hover {
+  outline: 1px solid var(--principal-blue);
+}
+
 #contact-content button::after {
   content: url(../assets/icons/ArrowUpRight.svg);
   position: absolute;
