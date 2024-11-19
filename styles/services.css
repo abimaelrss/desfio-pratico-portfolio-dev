@@ -19,7 +19,7 @@
   gap: 20px;
 
   border-radius: 12px;
-  border: 2px solid var(--Base-gray-200, #16181d);
+  border: 2px solid var(--base-gray-200);
 }
 
 .card-description {

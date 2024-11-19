@@ -1,0 +1,41 @@
+footer {
+  background: url(../assets/images/Background_Contacts.png) lightgray 50% /
+    cover no-repeat;
+
+  padding-block: 128px 200px;
+}
+
+footer .header .subtitle {
+  color: var(--principal-purple);
+}
+
+#contact-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+#contact-content button {
+  display: flex;
+  width: 400px;
+  padding: 20px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+
+  border: none;
+  border-radius: 8px;
+  background: var(--base-gray-300);
+
+  color: var(--base-gray-500);
+
+  position: relative;
+}
+
+#contact-content button::after {
+  content: url(../assets/icons/ArrowUpRight.svg);
+  position: absolute;
+  right: 20px;
+}

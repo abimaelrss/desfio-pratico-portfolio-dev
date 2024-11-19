@@ -3,8 +3,7 @@
   flex-direction: column;
   align-items: center;
 
-  margin-block: 72px 144px;
-
+  padding-block: 72px 144px;
 }
 
 #projects-content {
@@ -14,7 +13,6 @@
   gap: 24px;
 
   max-width: 680px;
-
 }
 
 .project-card {

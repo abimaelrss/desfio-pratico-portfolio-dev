@@ -1,5 +1,7 @@
 header {
   background: url("../assets/images/Background_Intro.png") 50% / cover no-repeat;
+
+  padding-block: 0 57px;
 }
 
 #info {
@@ -7,7 +9,7 @@ header {
   flex-direction: column;
   align-items: center;
   max-width: 680px;
-  margin: 0 auto;
+  margin: auto;
 }
 
 #avatar {
