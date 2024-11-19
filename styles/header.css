@@ -35,15 +35,6 @@ header {
   right: 0;
 }
 
-.subtitle {
-  font: var(--text-subtitle);
-  color: var(--base-gray-500);
-}
-
-.color-red {
-  color: var(--principal-red);
-}
-
 #info h1 {
   font: var(--text-title-lg);
   color: var(--base-gray-600);
